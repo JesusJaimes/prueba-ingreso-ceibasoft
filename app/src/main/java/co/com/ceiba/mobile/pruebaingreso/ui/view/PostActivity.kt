@@ -1,19 +1,14 @@
 package co.com.ceiba.mobile.pruebaingreso.ui.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.viewModels
-import androidx.core.view.isVisible
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import co.com.ceiba.mobile.pruebaingreso.R
-import androidx.lifecycle.Observer
-import co.com.ceiba.mobile.pruebaingreso.databinding.ActivityMainBinding
 import co.com.ceiba.mobile.pruebaingreso.databinding.ActivityPostBinding
 import co.com.ceiba.mobile.pruebaingreso.ui.adapters.PostListAdapter
-import co.com.ceiba.mobile.pruebaingreso.ui.adapters.UserListAdapter
 import co.com.ceiba.mobile.pruebaingreso.ui.viewmodel.PostListViewModel
-import co.com.ceiba.mobile.pruebaingreso.ui.viewmodel.UserListViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
